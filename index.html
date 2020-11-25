@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .container{
+            padding: 50px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="mb-3">A Simple calculator</h3>
+        <input type="text" placeholder="Enter number" class="formcontrol" id="num1">
+        <select name="" id="options">
+            <option value="0">Select</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" placeholder="Enter number" class="formcontrol" id="num2">
+        <button class="btn btn-success" onclick="calculator()"><b>=</b></button>
+        <input type="text" class="formcontrol" id="result" placeholder="Result">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
